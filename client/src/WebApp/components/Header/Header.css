@@ -1,0 +1,62 @@
+.chat header{
+    padding: 1rem 0;
+    position: sticky;
+    top:0;
+    z-index: 5;
+}
+
+.chat .header-inner{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:90%;
+    margin:auto;
+}
+
+.header-inner .menu{
+    background-color:transparent;
+    border:none;
+}
+
+.header-inner .profile-button{
+    background-color: transparent;
+    border:none;
+}
+
+.header-inner .user-profile-pic{
+    width:3rem;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-inner .cta{
+    background-color: var(--primary-500);
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1.3rem;
+    box-shadow: 0px 2px 8px 0px #89C5F1;
+    font-weight: 500;
+    font-family: manrope;
+    border:none;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.header-inner .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: .5rem;
+}
+
+.right .logout-button img{
+    width: 1.8rem;
+}

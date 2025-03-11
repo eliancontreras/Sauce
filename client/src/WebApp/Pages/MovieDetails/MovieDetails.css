@@ -1,0 +1,34 @@
+.movie-details-layout .subheading {
+    margin: 0 0 1rem 0;
+}
+
+
+.other-movie-details .images-section,
+.other-movie-details .thriller-section,
+.other-movie-details .movie-more-section,
+.other-movie-details .related-movies {
+    width: 90vw;
+    max-width: 60rem;
+    margin: 0 auto 2rem auto;
+}
+
+
+@media screen and (min-width:1000px) {
+    .movie-details-layout .other-movie-details {
+        max-width: 90vw;
+        margin: 2rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+
+    .other-movie-details .images-section,
+    .other-movie-details .thriller-section,
+    .other-movie-details .movie-more-section,
+    .other-movie-details .related-movies {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto 2rem auto;
+    }
+
+}
