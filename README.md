@@ -46,4 +46,4 @@ Sauce is a powerful web application designed to help you rediscover Anime, TV sh
 
 
 ## Author
-- My Portfolio - [Elian Contreras](https://elian-contreras.vercel.app)
+- My Portfolio - [Elian Contreras](https://elian-contreras.netlify.app/)
